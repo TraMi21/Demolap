@@ -24,7 +24,11 @@ namespace DemoForm
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (txtA.Text != String.Empty)
+=======
+            if (txtA.Text != String.Empty && txtB.Text != String.Empty)
+>>>>>>> 634a976edcbf2c769d5dd90b16a0a3155b150e0c
             {
                 double a = double.Parse(txtA.Text);
                 double b = double.Parse(txtB.Text);
